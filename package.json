@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-iansinnott",
+  "version": "1.0.0",
+  "description": "Provided as an extensible shared config",
+  "main": "index.js",
+  "scripts": {
+    "bump:patch": "npm version patch -m \"v%s\"",
+    "bump:minor": "npm version minor -m \"v%s\"",
+    "bump:major": "npm version major -m \"v%s\"",
+    "bump": "npm run bump:patch",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iansinnott/eslint-config-iansinnott.git"
+  },
+  "author": "Ian Sinnott <ian@iansinnott.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iansinnott/eslint-config-iansinnott/issues"
+  },
+  "homepage": "https://github.com/iansinnott/eslint-config-iansinnott",
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.12.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-flowtype": "^2.17.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-react": "^6.2.1"
+  }
+}
