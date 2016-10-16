@@ -1,4 +1,6 @@
-# My personal ESLint Config
+# ESLint Config
+
+An ESLint config for use with the latest ESNext features, React and Flow
 
 ## Quick Install
 
