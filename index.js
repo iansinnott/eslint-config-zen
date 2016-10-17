@@ -23,7 +23,7 @@ module.exports = {
     'no-console': [0],
     'linebreak-style': [2, 'unix'],
     'quotes': [2, 'single'],
-    'semi': [2, 'always'],
+    'semi': [1, 'always'],
     'no-unused-vars': [1, { vars: 'all', args: 'none' }],
 
     // React
