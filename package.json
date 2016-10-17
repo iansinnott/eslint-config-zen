@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-iansinnott",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provided as an extensible shared config",
   "main": "index.js",
   "scripts": {
