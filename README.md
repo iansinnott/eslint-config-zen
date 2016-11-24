@@ -27,4 +27,19 @@ Then create a new `.eslintrc` which extends eslint-config-zen:
 
 That's all!
 
+## Multiple Configs
+
+This config exposes multiple configs for use in your projects:
+
+* `zen/base`: Base JavaScript configuration, largely based on `eslint:recommended`.
+* `zen/react`: For use with React / JSX
+* `zen/flowtype`: For use with Flow
+
+By default all configurations will be enabled. You can customize which pieces you'd like.
+
+**NOTE:** The `zen/base` configuration is needed for the rest to work.
+
+* **For projects without React or Flow:** `{ "extends": ["zen/base"] }`
+* **For React Projects _without_ Flow:** `{ "extends": ["zen/base", "zen/react"] }`
+
 [Yarn]: https://yarnpkg.com/
