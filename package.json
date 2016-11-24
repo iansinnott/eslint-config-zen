@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-iansinnott",
+  "name": "eslint-config-zen",
   "version": "1.0.1",
   "description": "Provided as an extensible shared config",
   "main": "index.js",
@@ -12,21 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iansinnott/eslint-config-iansinnott.git"
+    "url": "git+https://github.com/iansinnott/eslint-config-zen.git"
   },
   "author": "Ian Sinnott <ian@iansinnott.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iansinnott/eslint-config-iansinnott/issues"
+    "url": "https://github.com/iansinnott/eslint-config-zen/issues"
   },
-  "homepage": "https://github.com/iansinnott/eslint-config-iansinnott",
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "babel",
-    "react",
-    "flowtype"
-  ],
+  "homepage": "https://github.com/iansinnott/eslint-config-zen",
+  "keywords": [ "eslint", "eslintconfig", "babel", "react", "flowtype" ],
   "devDependencies": {
     "babel-eslint": "^7.1.1",
     "eslint": "^3.10.2",

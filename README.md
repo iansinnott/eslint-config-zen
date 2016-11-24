@@ -1,12 +1,12 @@
-# ESLint Config
+# ESLint Config Zen
 
 An ESLint config for use with the latest ESNext features, React and Flow
 
 ## Quick Install
 
 ```
-yarn add --dev eslint eslint-config-iansinnott eslint-plugin-react eslint-plugin-flowtype babel-eslint
-echo '{"extends": ["iansinnott"]}' > .eslintrc
+yarn add --dev eslint eslint-config-zen eslint-plugin-react eslint-plugin-flowtype babel-eslint
+echo '{"extends": ["zen"]}' > .eslintrc
 ```
 
 ## Usage with NPM
@@ -14,14 +14,14 @@ echo '{"extends": ["iansinnott"]}' > .eslintrc
 If you haven't checked out [Yarn][] yet I would highly recommended, but this config works perfectly with NPM:
 
 ```
-npm install --save-dev eslint eslint-config-iansinnott eslint-plugin-react eslint-plugin-flowtype babel-eslint
+npm install --save-dev eslint eslint-config-zen eslint-plugin-react eslint-plugin-flowtype babel-eslint
 ```
 
-Then create a new `.eslintrc` which extends trustar:
+Then create a new `.eslintrc` which extends eslint-config-zen:
 
 ```
 {
-  "extends": ["iansinnott"]
+  "extends": ["zen"]
 }
 ```
 
