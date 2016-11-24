@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zen",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Provided as an extensible shared config",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,13 @@
     "url": "https://github.com/iansinnott/eslint-config-zen/issues"
   },
   "homepage": "https://github.com/iansinnott/eslint-config-zen",
-  "keywords": [ "eslint", "eslintconfig", "babel", "react", "flowtype" ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "babel",
+    "react",
+    "flowtype"
+  ],
   "devDependencies": {
     "babel-eslint": "^7.1.1",
     "eslint": "^3.10.2",
