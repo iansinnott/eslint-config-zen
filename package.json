@@ -20,12 +20,23 @@
     "url": "https://github.com/iansinnott/eslint-config-iansinnott/issues"
   },
   "homepage": "https://github.com/iansinnott/eslint-config-iansinnott",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "babel",
+    "react",
+    "flowtype"
+  ],
   "devDependencies": {
-    "babel-eslint": "^6.0.4",
-    "eslint": "^2.12.0",
-    "eslint-config-airbnb-base": "^3.0.1",
-    "eslint-plugin-flowtype": "^2.17.1",
-    "eslint-plugin-import": "^1.8.1",
-    "eslint-plugin-react": "^6.2.1"
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.10.2",
+    "eslint-plugin-flowtype": "^2.25.0",
+    "eslint-plugin-react": "^6.7.1"
+  },
+  "peerDependencies": {
+    "eslint": "^2.0.0 || ^3.0.0"
+  },
+  "dependencies": {
+    "lodash.mergewith": "^4.6.0"
   }
 }
