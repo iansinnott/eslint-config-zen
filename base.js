@@ -20,5 +20,6 @@ module.exports = {
     'quotes': [2, 'single'],
     'semi': [1, 'always'],
     'no-unused-vars': [1, { vars: 'all', args: 'none' }],
+    'no-case-declarations': 0,
   },
 };
