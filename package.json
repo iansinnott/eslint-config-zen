@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zen",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Provided as an extensible shared config",
   "main": "index.js",
   "scripts": {
