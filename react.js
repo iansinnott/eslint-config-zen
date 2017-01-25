@@ -24,8 +24,8 @@ module.exports = {
     'react/sort-prop-types': [0],
     'react/sort-comp': [1, {
       order: [
-        'type-annotations',
         'static-methods',
+        'type-annotations',
         'lifecycle',
         'everything-else',
         'render',
@@ -53,7 +53,7 @@ module.exports = {
     'react/jsx-uses-vars': [2],
     'react/jsx-handler-names': [0],
     'react/jsx-pascal-case': [2],
-    'react/jsx-no-bind': [2],
+    'react/jsx-no-bind': [1, {allowArrowFunctions: true, allowBind: false}],
     'react/jsx-no-undef': [2],
     'react/jsx-curly-spacing': [2],
     'react/jsx-equals-spacing': [2],
