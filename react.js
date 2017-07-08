@@ -65,6 +65,6 @@ module.exports = {
     'react/jsx-indent-props': [2, 2],
     'react/jsx-indent': [2, 2],
     'react/jsx-closing-bracket-location': [1, {selfClosing: 'line-aligned', nonEmpty: 'after-props'}],
-    'react/jsx-space-before-closing': [2],
+    'react/jsx-tag-spacing': [2, {beforeSelfClosing: 'always'}],
   },
 };
